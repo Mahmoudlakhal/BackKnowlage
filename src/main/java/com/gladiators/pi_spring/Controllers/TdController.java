@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/TD")
+@CrossOrigin(origins = "*")
 public class TdController {
 
     @Autowired
